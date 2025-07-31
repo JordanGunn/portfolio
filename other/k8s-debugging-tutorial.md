@@ -117,6 +117,7 @@ if __name__ == "__main__":
 
 ### 1.3 Modify Your Dockerfile
 Create a debug-enabled `Dockerfile`:
+
 ```dockerfile 
 FROM python:3.9-slim AS base
 
@@ -156,7 +157,7 @@ RUN \
 # ------------------------------------------
 # Copy application code
 # ------------------------------------------
-COPY . .
+COPY .. .
 
 # ------------------------------------------
 # Create non-root user
